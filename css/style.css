@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+
+
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+body {
+    width: 60vw;
+    margin: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    margin: 40px 0px;
+}
+
+nav a {
+    padding: 40px 15px;
+    color: black;
+}
+
+nav a:hover {
+    background-color: rgb(69, 123, 157);
+    color: white;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 0px;
+}
+
+header section {
+    background-color: rgb(160, 171, 192);
+    padding: 60px;
+    border-radius: 5px;
+}
+
+header p {
+    margin: 15px 0px 0px 0px;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin: 10px 0px;
+}
+
+img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+main section {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+section>dif {
+    border: 2px solid black;
+    display: flex;
+    border-radius: 5px;
+    padding: 15px;
+    justify-content: space-evenly;
+    flex-basis: 50px;
+    flex-grow: 1;
+    gap: 30px;
+}
+
+#spacer {
+    border: none;
+}
+
+dif a {
+    background-color: rgb(69, 123, 157);
+    color: white;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+dif a:hover {
+    background-color: white;
+    color: rgb(69, 123, 157);
+    border: 2px solid rgb(69, 123, 157);
+}
+
+dif>dif {
+    flex-grow: 1;
+    justify-content: space-evenly;
+    flex-basis: 50%;
+}
